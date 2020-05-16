@@ -5,6 +5,7 @@ export libsymspg
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "LD_LIBRARY_PATH"
+LIBPATH_default = ""
 
 # Relative path to `libsymspg`
 const libsymspg_splitpath = ["lib", "libsymspg.so"]
@@ -24,11 +25,13 @@ const libsymspg = "libsymspg.so.1"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"spglib")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    global libsymspg_path = abspath(joinpath(artifact"spglib", libsymspg_splitpath...))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    global libsymspg_path = normpath(joinpath(artifact_dir, libsymspg_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
