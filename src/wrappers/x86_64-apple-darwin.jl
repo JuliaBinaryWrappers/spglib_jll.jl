@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header(LLVMOpenMP_jll)
     JLLWrappers.@init_library_product(
         libsymspg,
-        "lib/libsymspg.1.16.5.dylib",
+        "lib/libsymspg.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
