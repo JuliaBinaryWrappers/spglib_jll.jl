@@ -1,143 +1,143 @@
 [[spglib]]
 arch = "aarch64"
-git-tree-sha1 = "5f698b1a881ac84f21871cfa9b5cd3beeb9d528d"
+git-tree-sha1 = "6b58bf12aa67d5e55c77d1d1077ab55c61a5d1e1"
 os = "macos"
 
     [[spglib.download]]
-    sha256 = "7f77bb31e2ee1f62f59dc8d1ef186ca850e7b559ce94daa8f2d5639766623e2d"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.aarch64-apple-darwin.tar.gz"
+    sha256 = "e6619bf98bc33696ee9cb22104cee4d702c7ae00137eb1b31a4081f265668d29"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.aarch64-apple-darwin.tar.gz"
 [[spglib]]
 arch = "aarch64"
-git-tree-sha1 = "c1bb8c212b3e774c51b5bc527fb9ad2a74c33778"
+git-tree-sha1 = "fdc6d69408901abb035d8e16a30b9e0e181eba32"
 libc = "glibc"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "a4efe7cc49c0487a2ec3a8ea9e022f68005fc24bd8f3e850fc993278cb77124a"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.aarch64-linux-gnu.tar.gz"
+    sha256 = "5f0e01bfc38a9213dde8e1686a9611e21fb1ef6b22ebc946730fa3c9309199ea"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.aarch64-linux-gnu.tar.gz"
 [[spglib]]
 arch = "aarch64"
-git-tree-sha1 = "e7ccc8d57b0af158614eee44c967ce0237698945"
+git-tree-sha1 = "a2b4c935b73a41b6f626b8c3c1382c6469ca0fae"
 libc = "musl"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "316bd68b8b163380e25d546bfb044c32ad2517229efd502705cef47e253903e6"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.aarch64-linux-musl.tar.gz"
+    sha256 = "821291f840126523cf7b23c4e8cf4159330e8507d388204b7cff50df523f8cf9"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.aarch64-linux-musl.tar.gz"
 [[spglib]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "8c1db8bb25d279820882233d431e5f6462216d24"
+git-tree-sha1 = "5fcfb2ccfcecf193c3f84e2b4c676d48712c943b"
 libc = "glibc"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "40e3f1c44fe3c2a28987220ed5cd314568189e5d4bd8b6bba39e764c59cba431"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "0ed8b3f9cf0f4f4190f607a5f79e83cf9fe25888af177621884d1611d815031e"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.armv6l-linux-gnueabihf.tar.gz"
 [[spglib]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "ff03aecb9fccefbe967e8cf847cd5bc4322146e8"
+git-tree-sha1 = "9edb72b61e07a008466f99fa37bc86ef8669e995"
 libc = "musl"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "bb9fcb2b04fda7fedb5d18bf4e2618d547d53d7081c04990632aecf9045c3ae4"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "9b144afd19b123f56c254023683077b44288821a93275c9b5e05b64d58742a2e"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.armv6l-linux-musleabihf.tar.gz"
 [[spglib]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "6064c9452557639461f9dbaae413931d8b030393"
+git-tree-sha1 = "524c6d2944168096cff5533341a96b40c6de17cf"
 libc = "glibc"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "9177858d2cad4a5359d239c5b31802cf46b436dd08b98777ba99a70ab94b0840"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "2476f7e550fb6679cd5f247076854a5a9eb942b0d3f3ba57d123ca51a49e79f8"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.armv7l-linux-gnueabihf.tar.gz"
 [[spglib]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "c0930421357230827d7a2290c83e0c8bbc61e786"
+git-tree-sha1 = "beab6361f619ae4975bb3947db930ea1b3a1ee60"
 libc = "musl"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "4650ecd0775a170699c50d4c99bbd8e86d99a1c0376ee556cbc607d93796fb3d"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "99a687970c9ea1327ee9c7b2d5c17dd86464d058e43286b04642bac21f6a460c"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.armv7l-linux-musleabihf.tar.gz"
 [[spglib]]
 arch = "i686"
-git-tree-sha1 = "a91102f75ab5d2b91b91d2802e14c465a1abce30"
+git-tree-sha1 = "105e16d2d544f325cb76f813c23cab7738bcfbed"
 libc = "glibc"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "9512f1d02ea25e1264d06f395ce668374b13fa4f81002f6e75e43e2737a610dc"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.i686-linux-gnu.tar.gz"
+    sha256 = "2d1ed4d79744d5a2ea54510283afc270bc90159248110862ddd463edb1613aa9"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.i686-linux-gnu.tar.gz"
 [[spglib]]
 arch = "i686"
-git-tree-sha1 = "12a34aaf9bceda2ccbc02779896756bf246ea003"
+git-tree-sha1 = "78bd82528beced60fa9acbbc53211bbc54522b28"
 libc = "musl"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "23ebf5a6ebb3b4b4c5263fd9d4261db1eb2687f0fd16c5126ccbb5343a579351"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.i686-linux-musl.tar.gz"
+    sha256 = "fe098a7879bc3e45f48360764b5922d2b1d7a4af27f72d31d37bd7a70f432b6c"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.i686-linux-musl.tar.gz"
 [[spglib]]
 arch = "i686"
-git-tree-sha1 = "5e1b9fb06ac9c831b2417d6eff567389bcd8d88a"
+git-tree-sha1 = "91a221da512a9635dac01891e9814e42b5dfe665"
 os = "windows"
 
     [[spglib.download]]
-    sha256 = "260df2fdab45301eb19eacf314dfba9f93bef42aa0c8df0e08ccf491f8a3abe8"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.i686-w64-mingw32.tar.gz"
+    sha256 = "6adfcb378e90dec8a3c68af6e7ef39d4ebd2d2388e8774ac93e5b78b6cd5e612"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.i686-w64-mingw32.tar.gz"
 [[spglib]]
 arch = "powerpc64le"
-git-tree-sha1 = "471d984b62f98d641ea421c34b4b274ff804a7d6"
+git-tree-sha1 = "002421a741f6312f18bc1497c058117b2b8e4b14"
 libc = "glibc"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "aa3d0399764d0fc0c9d7ea72d49955a9dea23491eac996dc9ee81f7e4a1f4633"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "ab7916f208868db367e5d9b246676e4851d7b1d8b95c4ce8be4309044f2de4de"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.powerpc64le-linux-gnu.tar.gz"
 [[spglib]]
 arch = "x86_64"
-git-tree-sha1 = "5b0f72beb09537035ee3c2ec56a3eb84408b7b58"
+git-tree-sha1 = "4f4733dccc36040ae57124bde01920ddd666ae78"
 os = "macos"
 
     [[spglib.download]]
-    sha256 = "f8b390c08754580a958f5572f80092a21a1566e8aa09295058488a03d6cc8534"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.x86_64-apple-darwin.tar.gz"
+    sha256 = "2fdcb3a27236c2079d2fb5de626e7f10344a7f99d26a7ffda04b8fa778ce51fe"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.x86_64-apple-darwin.tar.gz"
 [[spglib]]
 arch = "x86_64"
-git-tree-sha1 = "ba6dce28b43296d70e77c9679c7a5c46fdba200e"
+git-tree-sha1 = "d6d0207065eb6ad1b4a12b89e0576af1421c37c7"
 libc = "glibc"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "ccb924ab58753c5b566b469d04b99843bd3b4860f5b2c2644b3b30a96d9e49f2"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "f9111bbc9762cba69d07d1afb058bf26d4c94579f54ecbf0f789473e92d5dc7a"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.x86_64-linux-gnu.tar.gz"
 [[spglib]]
 arch = "x86_64"
-git-tree-sha1 = "ef30cc0bc7004461414f140bef7106d320ffc003"
+git-tree-sha1 = "605b18dcace84f0efa61ee4008de69229d3a1bce"
 libc = "musl"
 os = "linux"
 
     [[spglib.download]]
-    sha256 = "5d316fd3aa5ed2963575d225403f52b3b3c53ea7bf6c68af3b0194734af79b8e"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.x86_64-linux-musl.tar.gz"
+    sha256 = "727d8acf1e21fbe5ac8083b5d89e559c9e5f8bf02785be407e5e2e51db45959f"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.x86_64-linux-musl.tar.gz"
 [[spglib]]
 arch = "x86_64"
-git-tree-sha1 = "b072d15f5a24646eb5706b4fa84182720f5b0896"
+git-tree-sha1 = "2b4c2bb42c9f6f6b0a2e091e5c629840490cfee7"
 os = "freebsd"
 
     [[spglib.download]]
-    sha256 = "816afcc6a46828e9a8051b281621dca1c965d6349a69a397fa04283989075f2a"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "041c343d175e79121a135ba1f49b863b3f6b84121f9d2178050f3171a2aae442"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.x86_64-unknown-freebsd.tar.gz"
 [[spglib]]
 arch = "x86_64"
-git-tree-sha1 = "e6c4a515e274bbbf3b66b09b0e163a573d348575"
+git-tree-sha1 = "47857fe3f7ed3b7db1ba606475cdd3804720f80b"
 os = "windows"
 
     [[spglib.download]]
-    sha256 = "dd273bb301a8c2cbaea7d9e5f76d2170424332ac956fdc2f3fc2282aee5b089a"
-    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.0.2+0/spglib.v2.0.2.x86_64-w64-mingw32.tar.gz"
+    sha256 = "9be7dacf54c2c916e61ebb2d4aa1758ebcb9ee4c14eb0676ce126871db0d1523"
+    url = "https://github.com/JuliaBinaryWrappers/spglib_jll.jl/releases/download/spglib-v2.1.0+0/spglib.v2.1.0.x86_64-w64-mingw32.tar.gz"
